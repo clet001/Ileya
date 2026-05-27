@@ -7,18 +7,14 @@ public class Palindrome{
 
             if(input[count] != input[input.length -1 - count]){
 
-            return false
+            return false;
 
             }
 
-            else{
-                return true
-                
-            }
+            
     
-
         }
-
+            return true;
 
     }
 

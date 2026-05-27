@@ -14,7 +14,7 @@ public class TestPalindrome {
     
     @Test
     public void testWedaPalindromeReturnsFalse() {
-        int[] input = {45, 0, 8, 0, 99};
+        int[] input = {45, 0, 8, 0, 12};
         boolean actual = Palindrome.isPalindrome(input);
         assertEquals(false, actual);
     }
